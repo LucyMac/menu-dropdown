@@ -1,0 +1,111 @@
+/*----------------------------------------
+                VARIABLES
+-----------------------------------------*/
+/*----------------------------------------
+          NAVIGATION MENU STYLES
+-----------------------------------------*/
+/* line 13, ../sass/style.scss */
+.main-menu {
+  float: right;
+  padding: 10px;
+  font-family: 'Palanquin', sans-serif;
+}
+
+/* AVATAR */
+/* line 20, ../sass/style.scss */
+.nav_avatar {
+  float: right;
+  width: 44px;
+  height: 44px;
+  cursor: pointer;
+  margin-top: -16px;
+}
+/* line 27, ../sass/style.scss */
+.nav_avatar .nav_avatar-button {
+  width: 44px;
+  height: 44px;
+  background-color: #de00a5;
+}
+/* line 32, ../sass/style.scss */
+.nav_avatar .nav_avatar-button .nav_avatar-initials {
+  color: #fff;
+  text-transform: uppercase;
+  padding: 4px 9px;
+}
+
+/* end .nav_avatar */
+/* DROPDOWN */
+/* line 42, ../sass/style.scss */
+.hide-nav {
+  opacity: 0;
+  transform: translateY(10%);
+  transition: ease-out .4s;
+}
+
+/* line 48, ../sass/style.scss */
+.show-nav {
+  opacity: 1;
+  transform: translateY(0%);
+  transition: ease-in .4s;
+}
+
+/* line 54, ../sass/style.scss */
+.nav_dropdown {
+  float: right;
+  clear: both;
+  position: relative;
+  margin-top: 40px;
+  -webkit-box-shadow: 0px 0px 5px 3px #ededee;
+  -moz-box-shadow: 0px 0px 5px 3px #ededee;
+  box-shadow: 0px 0px 5px 3px #ededee;
+}
+/* line 63, ../sass/style.scss */
+.nav_dropdown .nav_arrow {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid #ededee;
+  position: absolute;
+  right: 13px;
+  top: -11px;
+}
+/* line 73, ../sass/style.scss */
+.nav_dropdown .nav_items {
+  list-style: none;
+  display: flex;
+  flex-flow: column;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}
+/* line 81, ../sass/style.scss */
+.nav_dropdown .nav_item {
+  display: flex;
+  padding-left: 25px;
+  padding-right: 35px;
+}
+/* line 86, ../sass/style.scss */
+.nav_dropdown .nav_item .nav_item-icon {
+  width: 32px;
+  height: 32px;
+  margin-top: 13px;
+  padding-right: 7px;
+}
+/* line 93, ../sass/style.scss */
+.nav_dropdown .nav_item .nav_item-label:hover {
+  color: #0000ff;
+}
+/* line 98, ../sass/style.scss */
+.nav_dropdown .nav_item--main {
+  border-bottom: 1px solid #ededee;
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+/* line 103, ../sass/style.scss */
+.nav_dropdown .nav_item--standard {
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
+/* end .nav_dropdown*/

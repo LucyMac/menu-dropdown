@@ -2,40 +2,52 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<link href="https://fonts.googleapis.com/css?family=Palanquin:600" rel="stylesheet">
+	<link rel="stylesheet" href="styles/stylesheets/style.css">
 	<title>Menu</title>
 </head>
 <body>
-	<nav>
+	<nav class="main-menu">
 		<section class="nav_avatar">
 			<div class="nav_avatar-button">
 				<h3 class="nav_avatar-initials">LZ</h3>
 			</div>
 		</section>
-		<section class="nav_items">
+		<section class="nav_dropdown hide-nav">
 			<div class="nav_arrow"></div>
-			<ul>
-				<li class="nav_item--main">
+			<ul class="nav_items">
+				<li class="nav_item nav_item--main">
 					<img class="nav_item-icon" src="visuals/icon-your-courses.svg" alt="Courses icon">
 					<p class="nav_item-label">Your courses</p>
 				</li>
-				<li class="nav_item--main">
+				<li class="nav_item nav_item--main">
 					<img class="nav_item-icon" src="visuals/icon-create.svg" alt="Create icon">
 					<p class="nav_item-label">Create</p>
 				</li>
-				<li class="nav_item--standard">
+				<li class="nav_item nav_item--standard">
 					<img class="nav_item-icon" src="visuals/icon-your-profile.svg" alt="Profile icon">
 					<p class="nav_item-label">Your profile</p>
 				</li>
-				<li class="nav_item--standard">
+				<li class="nav_item nav_item--standard">
 					<img class="nav_item-icon" src="visuals/icon-settings.svg" alt="Settings icon">
 					<p class="nav_item-label">Settings</p>
 				</li>
-				<li class="nav_item--standard">
+				<li class="nav_item nav_item--standard">
 					<img class="nav_item-icon" src="visuals/icon-sign-out.svg" alt="Sign out icon">
-					<p class="nav_item-label">Sign out</p>
+					<p class="nav_item-label">Sign</p>
 				</li>
 			</ul>
 		</section>
 	</nav>
 </body>
+<script>
+	const avatar = document.querySelector('.nav_avatar');
+	avatar.addEventListener('click', toggle);
+
+	function toggle () {
+		const dropdown = document.querySelector('.nav_dropdown');
+		dropdown.classList.toggle('show-nav');
+		dropdown.classList.toggle('hide-nav');
+	}
+</script>
 </html>
