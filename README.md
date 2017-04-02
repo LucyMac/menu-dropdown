@@ -1,7 +1,7 @@
 Menu dropdown with the FutureLearn pattern library
 ==================================================
 
-####The result of my attempt at this task is published here: [https://lucymac.github.io/menu-dropdown/](https://lucymac.github.io/menu-dropdown/)
+#### The result of my attempt at this task is published here: [https://lucymac.github.io/menu-dropdown/](https://lucymac.github.io/menu-dropdown/)
 
 *Click on the pink avatar to see the menu!*
 
@@ -18,7 +18,7 @@ I did not have the time to:
 Note I also used a Google font which I thought looked similar to Europa.
 
 
-###About the exercise
+### About the exercise
 
 The task was to reproduce an avatar and menu dropdown as per this visual: [`visual-user-options-menu.png`](visuals/visual-user-options-menu.png)
 
