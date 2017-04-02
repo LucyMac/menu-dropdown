@@ -1,31 +1,25 @@
-Front-end Developer Exercise
-============================
+Menu dropdown with the FutureLearn pattern library
+==================================================
 
-This is the front-end exercise we ask all front-end candidates to work on before being invited in for a technical interview.
+####The result of my attempt at this task is published here: [https://lucymac.github.io/menu-dropdown/](https://lucymac.github.io/menu-dropdown/)
 
-Please try to do as much of it as you can in two hours. Please don't take more than two hours - the aim is not to complete some production-ready finished software, but just to see some code that you've written that will give us a starting point for discussion in the interview. Being able to tell us about the code that you would have written next is just as interesting as what you submit.
+*Click on the pink avatar to see the menu!*
 
-We're interested in your technical choices and judgements, reasoning and ability to understand and explain the trade-offs behind them.
 
-We would like to see markup and CSS that you've written though - so if you want to use it, jQuery is ok, but Bootstrap is not.
+The exercise was limited to 2 hours.
 
-The user story for this exercise is:
+I did not have the time to:
 
-As a Learner,
-I'd like to view user menu options available to me, accessible from my avatar,
-So that I can navigate around the site.
+* Test it and fix for all browsers
+* Add the drop shadow on the white arrow (I left a grey arrow instead)
+* Perfect the padding for all menu items 
+* Properly centre the initials inside the avatar
 
-The user avatar that the menu should be accessible from is the initialled coloured square behind the menu in the visual - the avatar doesn't exist yet and so also needs to be built as part of this story.
+Note I also used a Google font which I thought looked similar to Europa.
 
-The file [`visual-user-options-menu.png`](visuals/visual-user-options-menu.png) shows what the avatar & menu should look like when this module is finished.
-The file [`visual-full-screen-for-context.png`](visuals/visual-full-screen-for-context.png) shows the menu in the context of the page when it's activated - please note though that only the avatar and menu need to be built, this visual is just included to give you a sense of where the module should fit on the page.
 
-We've also included the icons, and you can use the pattern library [Futurelearn colour reference](https://www.futurelearn.com/pattern-library/core-patterns/colours) to get the hex values.
+###About the exercise
 
-This exercise should look as much like the design as possible in browsers listed in our [Browser Support matrix](https://about.futurelearn.com/browser-support/). For other browsers, the content and functionality should be available.
+The task was to reproduce an avatar and menu dropdown as per this visual: [`visual-user-options-menu.png`](visuals/visual-user-options-menu.png)
 
-To submit your exercise, you can either send us a link to a Git repo, or archive your repo (ideally including the Git history).
-
-*PLEASE NOTE: clone this repo, don't fork it or submit a PR, as it's a public repository.*
-
-In either case, please send the info to [jobs@futurelearn.com](mailto:jobs@futurelearn.com). Thankyou!
+The user story for this exercise was: *"As a Learner, I'd like to view user menu options available to me, accessible from my avatar, So that I can navigate around the site."*
